@@ -46,7 +46,7 @@ can optimise the entire patient/physician interaction.
 | sr. no.   | Name                | Masters at            |
 | --------  | ------------------- | --------------------- |
 | 1.        | Priyanshu gupta     | Mern Stack 💪          | 
-| 2.        |  Amod Seth          | Mera by need,cyber by ❤|
+| 2.        |  Amod Seth          | Mern by need,cyber by ❤|
 | 3.        | Guramrit Singh      | Python and data Scraping|
 | 4.        | Jatin Singh         |   Mern Stack |
     
