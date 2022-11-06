@@ -1,0 +1,116 @@
+.DashBL {
+    flex: 0.8;
+    padding: 4vh 2vw;
+    overflow-y: scroll;
+  }
+  
+  .DashActiveName {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d1d1d178;
+  }
+  
+  .DashTopBar {
+    border: 1px solid #727272b1;
+    /* background: #e1e1e177; */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 5vh 0;
+  }
+  
+  .DashTopBarControls {
+    display: flex;
+  }
+  
+  .DashTopBarControls > select {
+    margin-right: 10px;
+  }
+  
+  .DashControlCreate {
+    margin: 0 1vw;
+  }
+  
+  .DashBody {
+    /* border: 1px solid green; */
+    padding: 10px 20px;
+    margin: 5vh 0;
+    /* display: grid; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+  }
+  
+  .DashBodyHeader {
+    /* border: 1px solid pink; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 2vh;
+    /* width: 100%; */
+    border-bottom: 1px solid #a7a7a7;
+  }
+  
+  .DashVisaTitle {
+    /* border: 1px solid red; */
+    /* width: 20vw; */
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 0;
+  }
+  
+  .DashBodyValues {
+    /* border: 1px solid blue; */
+    /* display: flex; */
+    display: grid;
+    padding: 0 10px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  .DashBodyValues:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+  }
+  
+  .DashVisaValue {
+    /* border: 1px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1vh 0;
+  }
+  
+  .DashVisaValueUpdate,
+  .DashVisaValueDelete {
+    justify-content: center;
+  }
+  
+  .DashVisaValuePhone {
+    justify-content: flex-end;
+  }
+  .DashVisaValuePublished {
+    justify-content: center;
+  }
+  /* .DashVisaValueTags span{
+    justify-content: center;
+    background-color: rgb(255, 20, 20);
+    padding: 10px;
+    margin-left: 10px;
+  } */
+  .Search{
+    background-color: #f44336;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }

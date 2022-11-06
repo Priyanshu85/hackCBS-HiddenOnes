@@ -1,0 +1,50 @@
+.InputFeild{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding-top:20px;
+}
+.DataHeading{
+    font-size:2.5rem;
+    font-weight:600;
+    text-align:center;
+    text-decoration:underline;
+    padding-top:10px;
+}
+#outlined-required{
+    width:70vw;
+}
+.Description{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.DescriptionHeading{
+    font-size:2.5rem;
+    font-weight:600;
+    padding:10px 0px;
+}
+.DescriptionButton{
+    background-color: blue;
+    color:white;
+    padding:10px 20px;
+    border-radius:10px;
+    font-size:1.5rem;
+    font-weight:600;
+    cursor:pointer;
+    margin-top:20px;
+    margin-right:5px;   
+}
+.DescriptionButtonDownload{
+    background-color: blue;
+    color:white;
+    padding:8px 20px;
+    border-radius:10px;
+    font-size:1.5rem;
+    font-weight:600;
+    cursor:pointer;
+    margin-top:20px;
+    margin-right:5px;   
+}

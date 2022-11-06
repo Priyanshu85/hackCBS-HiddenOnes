@@ -1,0 +1,50 @@
+.HomeHead{
+    /* border:1px solid red; */
+    display: flex;
+}
+.HeadContent{
+    /* border:1px solid blue; */
+    flex:0.8;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+}
+.HeadContentTitle{
+    /* border:1px solid green; */
+    font-size:3rem;
+    font-weight:600;
+    padding:1vw;    
+}
+.HeadContentText{
+    /* border:1px solid yellow; */
+    padding:1vw;
+}
+.HeadImage{
+    /* border: 2px solid black; */
+    flex:1;
+    border-radius:10%;
+}
+.HeadContentButton{
+    border:1px solid pink;
+    background-color: #31C48D;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 15px;
+    cursor: pointer;
+}
+
+  
+@media screen and (max-width: 600px) {
+    .HomeHead{
+        flex-direction:column-reverse;
+    }
+    .HeadContentTitle{
+        align-items:center;
+        font-size:30px;
+    }
+}
